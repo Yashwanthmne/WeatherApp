@@ -20,13 +20,16 @@ public class WeatherHttpClient {
         InputStream is = null;
 
         try {
+            //Setting up the connection
             con = (HttpURLConnection) (new URL(BASE_URL + location + "&APPID=" + APPID)).openConnection();
             con.setRequestMethod("GET");
             con.setDoInput(true);
             con.setDoOutput(true);
             con.connect();
+            //Connection Established
 
-            // Let's read the response
+
+            //Reading data
             StringBuffer buffer = new StringBuffer();
             is = con.getInputStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
@@ -50,7 +53,6 @@ public class WeatherHttpClient {
             } catch (Throwable t) {
             }
         }
-
         return null;
 
     }
