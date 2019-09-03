@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="temperature">Temperature</string>
+    <string name="temp_not_availabe">Temp Not Availabe</string>
+    <string name="humidity">Humidity:</string>
+    <string name="humidty_data_na">Humidty Data NA</string>
+    <string name="description">Description</string>
+    <string name="desc">desc</string>
+    <string name="no_place_selected">No Place selected</string>
+</resources>
