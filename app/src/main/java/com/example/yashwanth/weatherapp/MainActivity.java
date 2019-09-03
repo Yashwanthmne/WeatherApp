@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         tempTV = findViewById(R.id.TempView);
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyB7kHIvMZ8yeHoi_raq_M-zvsVLX5Djbo8");
+            Places.initialize(getApplicationContext(), "GOOGLE-API-KEY");
         }
 
         AutocompleteSupportFragment autocompleteFragment = (AutocompleteSupportFragment)
