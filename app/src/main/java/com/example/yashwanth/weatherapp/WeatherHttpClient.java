@@ -13,7 +13,7 @@ import java.net.URL;
 public class WeatherHttpClient {
 
     private static String BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
-    private static String APPID = "4aa30383347eb7f7acc7963311d4bed9";
+    private static String APPID = "---CENSORED---";
 
     public String getWeatherData(String location) {
         HttpURLConnection con = null;
